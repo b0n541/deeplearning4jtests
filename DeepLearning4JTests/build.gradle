@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile "org.deeplearning4j:deeplearning4j-core:0.9.1"
+    compile "org.nd4j:nd4j-native-platform:0.9.1"
+    compile "org.slf4j:slf4j-simple:1.7.25"
+    compile "org.slf4j:slf4j-api:1.7.25"
+}
